@@ -1,0 +1,37 @@
+{
+  "name": "ExampleProject",
+  "emitLegacyScripts": false,
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Codebase": {
+        "$className": "Folder",
+
+        "Client": {
+          "$path": "src/client"
+        },
+
+        "Shared": {
+          "$path": "src/shared"
+        }
+      },
+
+      "Libraries": {
+        "$path": "src/libraries"
+      }
+    },
+
+    "ServerStorage": {
+      "Codebase": {
+        "$path": "src/server"
+      }
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
